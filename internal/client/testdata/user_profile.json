@@ -1,0 +1,10 @@
+{
+  "users": {
+    "id": "user-2",
+    "username": "bob",
+    "screenName": "Bob B",
+    "type": "user",
+    "description": "Just bob",
+    "isPrivate": "1"
+  }
+}

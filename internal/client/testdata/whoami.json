@@ -1,0 +1,18 @@
+{
+  "users": {
+    "id": "user-1",
+    "username": "testuser",
+    "screenName": "Test User",
+    "type": "user",
+    "description": "Hello",
+    "isPrivate": "0",
+    "isProtected": false
+  },
+  "subscribers": [
+    {"id": "user-2", "username": "bob", "screenName": "Bob B", "type": "user"},
+    {"id": "group-1", "username": "testgroup", "screenName": "Test Group", "type": "group"}
+  ],
+  "subscriptions": [
+    {"id": "feed-1", "name": "Posts", "user": "user-2"}
+  ]
+}

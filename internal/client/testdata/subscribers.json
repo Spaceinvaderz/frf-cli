@@ -1,0 +1,6 @@
+{
+  "subscribers": [
+    {"id": "user-1", "username": "alice", "screenName": "Alice A"},
+    {"id": "user-3", "username": "charlie", "screenName": "Charlie C"}
+  ]
+}

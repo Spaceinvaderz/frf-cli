@@ -1,0 +1,17 @@
+{
+  "posts": {
+    "id": "new-post-1",
+    "shortId": "abc123",
+    "createdBy": "user-1",
+    "body": "New post body",
+    "createdAt": "1700003000000",
+    "likes": [],
+    "likesCount": 0,
+    "comments": [],
+    "omittedComments": 0,
+    "commentsCount": 0
+  },
+  "users": [
+    {"id": "user-1", "username": "testuser", "screenName": "Test User"}
+  ]
+}

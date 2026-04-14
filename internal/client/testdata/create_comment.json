@@ -1,0 +1,13 @@
+{
+  "comments": {
+    "id": "new-comment-1",
+    "postId": "post-1",
+    "createdBy": "user-1",
+    "body": "New comment",
+    "createdAt": "1700004000000",
+    "seqNumber": 3
+  },
+  "users": [
+    {"id": "user-1", "username": "testuser", "screenName": "Test User"}
+  ]
+}

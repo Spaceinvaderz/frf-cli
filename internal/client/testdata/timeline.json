@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "post-1",
+      "createdBy": "user-1",
+      "body": "Hello world",
+      "createdAt": "1700000000000",
+      "likes": ["user-2"],
+      "likesCount": 1,
+      "comments": ["comment-1"],
+      "omittedComments": 0,
+      "commentsCount": 1
+    },
+    {
+      "id": "post-2",
+      "createdBy": "user-2",
+      "body": "Second post",
+      "createdAt": "1700001000000",
+      "likes": [],
+      "likesCount": 0,
+      "comments": [],
+      "omittedComments": 0,
+      "commentsCount": 0
+    }
+  ],
+  "users": [
+    {"id": "user-1", "username": "alice", "screenName": "Alice A"},
+    {"id": "user-2", "username": "bob", "screenName": "Bob B"}
+  ],
+  "timelines": {
+    "home": {"posts": ["post-1", "post-2"]}
+  }
+}

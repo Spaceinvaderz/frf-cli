@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "post-3",
+      "createdBy": "user-1",
+      "body": "Searchable content here",
+      "createdAt": "1700002000000",
+      "likes": [],
+      "likesCount": 0,
+      "comments": [],
+      "omittedComments": 0,
+      "commentsCount": 0
+    }
+  ],
+  "users": [
+    {"id": "user-1", "username": "alice", "screenName": "Alice A"}
+  ],
+  "timelines": {}
+}
