@@ -51,7 +51,7 @@ frf timeline home --limit 10 --page 2 # pagination
 # Posts
 frf post get <id>                     # post with full comments
 frf post create <body>                # create post
-frf post create <body> --group <name> # post to group
+frf post create <body> --group g1,g2   # post to group(s)
 frf post update <id> <body>           # edit post
 frf post delete <id>                  # delete post
 frf post like <id>                    # like

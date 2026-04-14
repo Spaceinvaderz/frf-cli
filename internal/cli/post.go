@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var postCreateGroup string
+var postCreateGroups []string
 
 func newPostCmd() *cobra.Command {
 	cmd := &cobra.Command{
@@ -62,8 +62,8 @@ func newPostCreateCmd() *cobra.Command {
 			}
 
 			var feeds []string
-			if postCreateGroup != "" {
-				feeds = []string{postCreateGroup}
+			if len(postCreateGroups) > 0 {
+				feeds = postCreateGroups
 			}
 
 			post, err := c.CreatePost(args[0], feeds)
@@ -77,7 +77,7 @@ func newPostCreateCmd() *cobra.Command {
 		},
 	}
 
-	cmd.Flags().StringVar(&postCreateGroup, "group", "", "post to a group")
+	cmd.Flags().StringSliceVar(&postCreateGroups, "group", nil, "post to group(s), comma-separated or repeated")
 
 	return cmd
 }

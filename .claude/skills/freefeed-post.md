@@ -9,7 +9,7 @@ When the user wants to create posts, reply to discussions, or manage content. AL
 
 ```bash
 frf post create "Post body text"
-frf post create "Post body" --group groupname
+frf post create "Post body" --group group1,group2
 frf post update <post-id> "Updated body"
 frf post delete <post-id>
 frf post like <post-id>

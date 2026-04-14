@@ -47,7 +47,7 @@ frf search "query"                    # search (from:, intitle:, incomment:)
 
 # Write
 frf post create "Hello, FreeFeed!"
-frf post create "Post" --group mygroup
+frf post create "Post" --group group1,group2
 frf comment add <post-id> "Nice post!"
 frf direct create "Hey" --to user1,user2
 
