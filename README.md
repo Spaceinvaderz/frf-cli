@@ -68,15 +68,17 @@ frf post delete <id>
 
 Pagination: `--limit 10 --page 2`
 
-## TUI
+## TUI (experimental)
 
 ```bash
 frf-tui
 ```
 
-Two-panel terminal interface: post list + detail view with comments.
+Two-panel terminal interface: post list + detail view with comments. Read-only for now.
 
 Keys: `h` Home, `m` Direct, `D` Discussions, `Tab` switch panes, `j/k` scroll, `a` all comments, `q` quit.
+
+> **Note:** TUI is experimental and rough around the edges. Current focus is on the CLI.
 
 ## Project structure
 
